@@ -1,0 +1,50 @@
+a[href^="https://twitter.com/intent/tweet?"] {
+  display: block !important;
+}
+
+body {
+  padding: 10vh 0;
+  margin: 0;
+  background: #55ACEE;
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  height: 40vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .box .quote {
+  font-weight: 300;
+}
+
+body .box .quote .author {
+  font-weight: 400;
+}
+
+body .trigger, body .tweet {
+  background: none;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  font-family: Roboto;
+  height: 35px;
+  width: 400px;
+  margin: 0 auto;
+  line-height: 35px;
+  margin-top: 20px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+body .trigger:hover, body .tweet:hover {
+  background: white;
+  color: #55ACEE;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
